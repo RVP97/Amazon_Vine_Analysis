@@ -94,4 +94,36 @@ SELECT
         )
     ) AS "five_star_percentage" INTO unpaid_vine_stats_table
 FROM
-    non_vine_reviews_table
+    non_vine_reviews_table;
+
+SELECT
+    COUNT(*) AS verified_purchase,
+    (
+        SELECT
+            COUNT(*)
+        FROM
+            helpful_votes_table
+        WHERE
+            vine = 'Y'
+    ) AS total_purchases
+FROM
+    helpful_votes_table
+WHERE
+    verified_purchase = 'Y'
+    AND vine = 'Y';
+
+SELECT
+    COUNT(*) AS verified_purchase,
+    (
+        SELECT
+            COUNT(*)
+        FROM
+            helpful_votes_table
+        WHERE
+            vine = 'N'
+    ) AS total_purchases
+FROM
+    helpful_votes_table
+WHERE
+    verified_purchase = 'Y'
+    AND vine = 'N';
