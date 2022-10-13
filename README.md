@@ -14,9 +14,9 @@ The analysis made us answer the following questions, which would be crucial for 
 
 The following two images were obtained doing SQL queries and will be used to answer the aforementioned questions:
 
-**Vine Reviews Statistics**
-![Vine Statistics](images/paid_vine.png)
-**Non-Vine Reviews Statistics**
+**Vine Reviews Statistics** <br>
+![Vine Statistics](images/paid_vine.png) <br>
+**Non-Vine Reviews Statistics** <br>
 ![Non-Vine Statistics](images/unpaid_vine.png)
 
 - For every vine review, there are almost **49** non-vine reviews. Having this in mind, the much smaller size of the former might me prone to skewed results. There were **62,028** non-vine reviews while only **1,266** vine ones.
@@ -30,9 +30,9 @@ Another analysis I would perform is one regarding verified purchases to assess t
 
 From the following image, we can see that from the total non-vine reviews, only **29,579** were verified purchases. That is a great contrast with the vine-program reviews, where only **4** purchases were verified.
 
-**Vine Verified**
-![Vine Verified](images/vine_verified.png)
-**Non-Vine Verified**
-![Non-Vine Verified](images/non_vine_verified.png)
+**Vine Verified** <br>
+![Vine Verified](images/vine_verified.png) <br>
+**Non-Vine Verified** <br>
+![Non-Vine Verified](images/non_vine_verified.png) <br>
 
 After doing this, it supports the hypothesis that vine reviews might be lower since the people receiving the products did not actually ordered them and could not have been interested or did not have a use for them. On the other hand, almost have of the non-vine reviews were purchase-verified, meaning that the people leaving those reviews actually wanted the product; thus leaning into higher reviews.
